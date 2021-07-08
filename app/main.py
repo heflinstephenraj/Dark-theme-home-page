@@ -12,6 +12,12 @@ app.secret_key = "Stephen@123#321%"
 def home():
     return render_template("home.html")
 
+@app.route('/search/')
+@app.route('/search')
+def search():
+    search = request.args.get("Search")
+    print(search)
+    return render_template("home.html")
 
 
 if __name__ == '__main__':
