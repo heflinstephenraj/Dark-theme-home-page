@@ -20,12 +20,6 @@
   
 }
 
-
-[data-theme="dark"] .bi {
-  
-  color: white;
-}
-
 [data-theme="dark"] .text-primary {
   
   color: white;
@@ -64,16 +58,15 @@
   border-color: #fff;
 }
 
-
 [data-theme="dark"] .btn-outline-dark {
-  background-color: rgb(0, 0, 0) !important;
-  color: #fff;
-  border-color: #fff;
+  background-color: rgb(0, 0, 0) ;
+  color: #fff ;
+  border-color: #fff ;
 }
 
-[data-theme="dark"] .btn-outline-dark:hover {
+[data-theme="dark"] .btn-outline-light:hover  .bi {
   color: rgb(0, 0, 0) !important;
-  background-color: #fff !important;
+  
   border-color: rgb(0, 0, 0) !important;
 }
 
