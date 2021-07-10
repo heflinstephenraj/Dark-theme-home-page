@@ -16,6 +16,6 @@
 ### Main program
 <a href="https://github.com/heflinstephenraj/Dark-theme-home-page/tree/main/app">App folder</a> <br>
 
-
+Add your custom css for dark theme at <a href="https://github.com/heflinstephenraj/Dark-theme-home-page/blob/main/app/static/css/dark-mode.css">dark-mode.css</a> <br>
 
 
