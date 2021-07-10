@@ -1,10 +1,6 @@
 from flask import Flask, render_template
-import requests
-    
 
 app = Flask(__name__)
-
-app.secret_key = "Stephen@123#321%"
 
 @app.route('/')
 def home():
