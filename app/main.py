@@ -6,8 +6,6 @@ app = Flask(__name__)
 
 app.secret_key = "Stephen@123#321%"
 
-
-
 @app.route('/')
 def home():
     return render_template("home.html")
@@ -16,7 +14,7 @@ def home():
 @app.route('/search')
 def search():
     search = request.args.get("Search")
-    print(search)
+    print("Search <<<< ",search)
     return render_template("home.html")
 
 
